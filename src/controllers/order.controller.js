@@ -40,7 +40,7 @@ export const createOrder = async (req, res) => {
     res.status(201).json({ message: 'Orden creada exitosamente', order });
   } catch (error) {
     console.error('Error al crear la orden:', error);
-    res.status(500).json({ message: 'Ha ocurrido un error al crear la orden' });
+    {/*res.status(500).json({ message: 'Ha ocurrido un error al crear la orden' });*/}
   }
 };
 
